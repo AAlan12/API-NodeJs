@@ -1,0 +1,29 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+    "name": "STARDEW VALLEY",
+    "price": 20.7
+}
+
+###
+
+GET http://localhost:4002/products
+
+
+###
+
+GET http://localhost:4002/products/f8c852a8-f69c-427f-9b06-1f711c11c8df
+
+###
+PUT http://localhost:4002/products/f8c852a8-f69c-427f-9b06-1f711c11c8df
+content-type: application/json
+
+{
+    "name": "Elden Ring",
+    "price": 70.4
+}
+
+###
+
+DELETE http://localhost:4002/products/a8c705d5-ec71-46ee-92d5-80d63594c8d7
