@@ -1,0 +1,11 @@
+{
+  "name": "apinodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "Antonio Alan de Sousa Cardoso",
+  "license": "MIT"
+}
